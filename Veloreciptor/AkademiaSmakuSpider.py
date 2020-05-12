@@ -29,6 +29,9 @@ class AkademiaSmakuRecipeSpider(scrapy.Spider):
         yield {
             "link": response.url,
             "title": response.css('header.header h1::text').get(),
+            "portions": BeautifulSoup(
+                response.css('div.przepisy > div.info.d-flex > div > div:last-child > strong').get()
+            ).text.strip().split(" ")[1],
             "photo_link": response.css('picture img::attr(src)').get(),
             "ingredients": response.css('div#skladniki td::text').getall(),
             "preparation": '\n'.join([p.css('p::text').get() for p in preparation])
