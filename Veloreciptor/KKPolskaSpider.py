@@ -22,6 +22,7 @@ class KKPolskaRecipeSpider(scrapy.Spider):
         yield {
             "link": response.url,
             "title": response.css('article.recipe-info > header > h1::text').get(),
+            "portions": 0,
             "photo_link": response.css('figure.recipe > img::attr(src)').get(),
             "ingredients": response.css('section.ingredients > ul > li::text').getall(),
             "preparation": "\n".join([BeautifulSoup(p, "lxml").text for p in

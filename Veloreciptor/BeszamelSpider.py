@@ -32,6 +32,7 @@ class BeszamelRecipeSpider(scrapy.Spider):
         yield {
             "link": response.url,
             "title": response.css('div.title h1::text').get(),
+            "portions": response.css('div.recipe-info > div.box:last-child > p > span::text').get().split(" ")[0],
             "photo_link": response.css('div.recipe-box div.img img::attr(src)').get(),
             "ingredients": ingredients,
             "preparation": '\n'.join(response.css('div.cookin li p::text').getall())
