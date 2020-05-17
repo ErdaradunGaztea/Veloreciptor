@@ -1,6 +1,6 @@
 # Veloreciptor
 
-[![version 1](https://img.shields.io/badge/docs-stable-blue.svg)](https://www.overleaf.com/5613742869mrpdxthrnnsr)
+[![version 1](https://img.shields.io/badge/docs-dev-blue.svg)](https://www.overleaf.com/5613742869mrpdxthrnnsr)
 
 
 ## Pierwsza faza projektu - pomysły 
