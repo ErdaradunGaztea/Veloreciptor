@@ -2,6 +2,8 @@ import re
 
 import scrapy
 
+from SpiderUtils import add_space_before_unit
+
 
 def remove_tag(tag):
     if tag:
@@ -28,6 +30,7 @@ class BeszamelRecipeSpider(scrapy.Spider):
             # removes hyperlink (if exists) and outer <p> tags from ingredient
             ingredients[index] = re.sub(r'<p>(?P<text>.*)</p>', remove_tag,
                                         re.sub(r'<a.*>(?P<text>.*)</a>', remove_tag, ingredient))
+            ingredients = [add_space_before_unit(i) for i in ingredients]
 
         yield {
             "link": response.url,
