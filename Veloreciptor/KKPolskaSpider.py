@@ -31,7 +31,8 @@ class KKPolskaRecipeSpider(scrapy.Spider):
             "photo_link": response.css('figure.recipe > img::attr(src)').get(),
             "ingredients": ingredients,
             "preparation": "\n".join([BeautifulSoup(p, "lxml").text for p in
-                                      response.css('article.recipe-cooking > section > p').getall()])
+                                      response.css('article.recipe-cooking > section > p').getall()]),
+            "category": None
         }
 
 

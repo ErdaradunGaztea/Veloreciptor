@@ -36,7 +36,8 @@ class AkademiaSmakuRecipeSpider(scrapy.Spider):
             ).text.strip().split(" ")[1],
             "photo_link": response.css('picture img::attr(src)').get(),
             "ingredients": ingredients,
-            "preparation": '\n'.join([p.css('p::text').get() for p in preparation])
+            "preparation": '\n'.join([p.css('p::text').get() for p in preparation]),
+            "category": None
         }
 
 
