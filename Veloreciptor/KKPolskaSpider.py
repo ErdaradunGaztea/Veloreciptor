@@ -1,6 +1,8 @@
 import scrapy
 from bs4 import BeautifulSoup
 
+from SpiderUtils import add_space_before_unit
+
 
 class KKPolskaRecipeSpider(scrapy.Spider):
     name = 'KKPolskaSpider'
@@ -19,14 +21,18 @@ class KKPolskaRecipeSpider(scrapy.Spider):
             yield response.follow('https://kkpolska.pl/' + recipe, self.parse_recipe)
 
     def parse_recipe(self, response):
+        ingredients = response.css('section.ingredients > ul > li::text').getall()
+        ingredients = [add_space_before_unit(i) for i in ingredients]
+
         yield {
             "link": response.url,
             "title": response.css('article.recipe-info > header > h1::text').get(),
             "portions": 0,
             "photo_link": response.css('figure.recipe > img::attr(src)').get(),
-            "ingredients": response.css('section.ingredients > ul > li::text').getall(),
+            "ingredients": ingredients,
             "preparation": "\n".join([BeautifulSoup(p, "lxml").text for p in
-                                      response.css('article.recipe-cooking > section > p').getall()])
+                                      response.css('article.recipe-cooking > section > p').getall()]),
+            "category": None
         }
 
 
