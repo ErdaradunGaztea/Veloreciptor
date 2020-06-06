@@ -19,8 +19,8 @@ recipes['frequency'] = np.random.geometric(0.4, recipes.shape[0])
 recipes['default_price'] = np.round(np.random.uniform(22.0, 48.0, recipes.shape[0]), 2)
 
 # order generator
-n = 1000
-start_date = pd.to_datetime('2020-05-13')
+n = 12715
+start_date = pd.to_datetime('2019-06-06')
 end_date = pd.to_datetime('2020-06-06')
 orders = pd.DataFrame(columns=['id', 'recipe_id', 'price'])
 orders['recipe_id'] = np.random.choice(recipes['id'], n, p=recipes['frequency']/np.sum(recipes['frequency']))
