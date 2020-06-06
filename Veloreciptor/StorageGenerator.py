@@ -8,6 +8,7 @@ j = rec_ingr.join(recipes, on='recipe_id').join(products, on='product_id')
 
 orders = pd.read_csv('data/orders.csv')
 k = orders.join(j.set_index('recipe_id'), on='recipe_id', lsuffix='_order')
+k['date'] = pd.to_datetime(k['date'])
 k['to_date'] = k['date'].dt.date
 k['from_date'] = k['to_date'] + pd.to_timedelta(
     -np.random.randint(low=1, high=np.minimum(k['exp_date_days'], 365), size=k.shape[0]), unit='D')
