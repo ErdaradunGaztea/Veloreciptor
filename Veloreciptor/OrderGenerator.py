@@ -30,3 +30,5 @@ orders['price'] = [recipes[recipes['id'] == i].iloc[0]['default_price'] for i in
 orders['date'] = random_dates(start_date, end_date, orders.shape[0]) + random_times(orders.shape[0])
 orders = orders.sort_values('date').reset_index(drop=True)
 orders['id'] = orders.index
+
+orders.to_csv("data/orders.csv", index=False)
