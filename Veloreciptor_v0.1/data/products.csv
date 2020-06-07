@@ -1,192 +1,192 @@
-name,vegetarian,vegan,allergic,gluten,exp_date_days,price,id
-kurczak,False,False,False,False,3,11,0
-olej,True,True,False,False,100,1,1
-cebulka,True,True,False,False,12,4,2
-przyprawa do drobiu,True,True,False,False,10000,1,3
-sól,True,True,False,False,10000,1,4
-ryż,True,True,False,False,90,1,5
-mleko,True,False,True,False,15,4,6
-cukier,True,True,False,False,10000,1,7
-mięta,True,True,False,False,2,20,8
-cytryna,True,True,False,False,4,10,9
-truskawka,True,True,True,False,2,20,10
-czekolada,True,False,True,False,30,2,11
-tortilla pszenna,True,False,False,True,10,4,12
-tuńczyk w oliwie,False,False,False,False,2,17,13
-kukurydza,True,True,False,False,2,15,14
-szczypiorek,True,True,False,False,2,20,15
-marynowana ostra papryczka,True,True,False,False,10,4,16
-mozzarella,True,False,True,False,10,5,17
-majonez,True,False,True,False,10,4,18
-musztarda,True,True,False,False,10,5,19
-pomidor,True,True,False,False,2,19,20
-papryka,True,True,False,False,10,5,21
-marynowana papryka jalapeño,True,True,False,False,10,4,22
-czosnek,True,True,False,False,2,17,23
-pieprz,True,True,False,False,10000,1,24
-ocet,True,True,False,False,10000,1,25
-cebula,True,True,False,False,10,5,26
-mąka ziemniaczana,True,True,False,False,100,1,27
-kolendra,True,True,False,False,10000,1,28
-tofu,True,True,False,False,10,5,29
-rukola,True,True,False,False,10,5,30
-awokado,True,True,False,False,10,5,31
-oliwa,True,True,False,False,30,2,32
-masło,True,False,True,False,10,4,33
-jajko,True,False,True,False,10,4,34
-mąka z orzechów,True,True,True,False,100,1,35
-cynamon,True,True,False,False,10000,1,36
-soda oczyszczona,True,True,False,False,10000,1,37
-mus jabłkowy,True,True,False,False,10,4,38
-cukier waniliowy,True,True,False,False,10000,1,39
-imbir,True,True,False,False,10000,1,40
-jagoda goji,True,True,False,False,10,5,41
-sos sojowy,True,True,False,False,10,5,42
-wódka,True,True,False,False,10000,1,43
-woda,True,True,False,False,10000,1,44
-mleczko kokosowe,True,True,False,False,10,4,45
-limonka,True,True,False,False,10,5,46
-laska wanilii,True,True,False,False,10000,1,47
-mango,True,True,False,False,10,4,48
-biały sezam,True,True,True,False,10000,1,49
-mąka orkiszowa,True,True,False,False,100,1,50
-bita śmietana,True,False,False,False,10,4,51
-puree z mango,True,True,False,False,10,4,52
-napój z mango,True,True,False,False,10,4,53
-zielona herbata,True,True,False,False,10000,1,54
-lód,True,True,False,False,10,5,55
-pasta curry,True,True,False,False,10,4,56
-bakłażan,True,True,False,False,10,4,57
-polędwica wołowa,False,False,False,False,10,5,58
-liść bazylii,True,True,False,False,10000,1,59
-papryczka chili,True,True,False,False,10,5,60
-por,True,True,False,False,10,4,61
-makaron udong,True,False,False,True,100,2,62
-bulion mięsny,False,False,False,False,10,4,63
-fasola,True,True,False,False,10,5,64
-żeberko wieprzowe,False,False,False,False,10,4,65
-boczek,False,False,False,False,10,5,66
-marchewka,True,True,False,False,10,5,67
-pietruszka,True,True,False,False,10000,1,68
-seler,True,True,False,False,10,3,69
-ziele angielskie,True,True,False,False,10000,1,70
-liść laurowy,True,True,False,False,10000,1,71
-ziemniak,True,True,False,False,10,4,72
-majeranek,True,True,False,False,10,4,73
-bulion,False,False,False,False,10,5,74
-marchew,True,True,False,False,10,4,75
-mąka pszenna,True,True,False,False,100,2,76
-parmezan,True,False,True,False,10,4,77
-orzeszek pinii,True,True,True,False,10,4,78
-makaron,True,False,False,True,100,2,79
-fasola czerwona,True,True,False,False,10,4,80
-sałata,True,True,False,False,10,5,81
-papryka czerwona,True,True,False,False,10,5,82
-mirin,True,True,False,False,10,5,83
-wołowina,False,False,False,False,10,5,84
-pęd bambusa,True,True,False,False,10,5,85
-sezam,True,True,False,False,10,5,86
-perełka tapioki,True,True,False,False,10,5,87
-syrop cytrynowy,True,True,False,False,10,5,88
-herbata malinowa,True,True,False,False,10,4,89
-miód,True,False,False,False,10,5,90
-tortilla taco,True,False,False,False,10,4,91
-kacze udko,False,False,False,False,10,4,92
-białe wino,True,True,False,False,10000,1,93
-sałata lodowa,True,True,False,False,10,5,94
-sos Hoisin,True,True,False,False,10,5,95
-makaron sojowy,True,True,False,True,100,2,96
-krewetka,False,False,False,False,10,5,97
-solona pistacja,True,True,False,False,10,5,98
-makaron jajeczny,True,False,True,False,100,1,99
-ogórek,True,True,False,False,10,4,100
-sos ostrygowy,False,False,False,False,10,5,101
-kasztan jadalny,True,True,False,False,10,4,102
-brokuł,True,True,False,False,10,5,103
-czerwona papryka,True,True,False,False,10,5,104
-sos teriyaki,True,False,False,False,10,4,105
-sos hoisin,True,True,False,False,10,4,106
-żeberko,False,False,False,False,10,5,107
-zielona papryka,True,True,False,False,10,5,108
-pieczarka,True,True,False,False,10,5,109
-sos stir-fry,False,False,False,False,10,4,110
-groszek cukrowy,True,True,False,False,10,4,111
-orzech nerkowca,True,True,False,False,10,5,112
-szparag,True,True,False,False,10,5,113
-leszcz morski,False,False,False,False,10,5,114
-rozmaryn,True,True,False,False,10,5,115
-sos chili,True,True,False,False,10,4,116
-marynata,True,True,False,False,10,5,117
-olej sezamowy,True,True,True,False,10,4,118
-fasolka szparagowa,True,True,False,False,10,4,119
-wieprzowina,False,False,False,False,10,5,120
-wino ryżowe,True,True,False,False,10,5,121
-chińska kapusta,True,True,False,False,10,4,122
-pomidorek koktajlowy,True,True,False,False,10,4,123
-oregano,True,True,False,False,10,5,124
-makaron chili,True,False,False,True,100,2,125
-śmietanka kremowa,True,False,False,False,10,5,126
-sos Worcester,False,False,False,False,10,4,127
-makaron pszenny,True,False,False,True,100,1,128
-pomidor malinowy,True,True,False,False,10,5,129
-kurka,True,True,False,False,10,5,130
-dorsz,False,False,False,False,10,5,131
-śmietanka kremówki,True,False,False,False,10,5,132
-kuskus,True,True,False,False,10,4,133
-ser kozi,True,False,True,False,10,5,134
-natka pietruszki,True,True,False,False,10,5,135
-ser feta,True,False,True,False,10,5,136
-kalmar,False,False,False,False,10,5,137
-kiełbaska chorizo,False,False,False,False,10,4,138
-fasolka biała,True,True,False,False,10,6,139
-zupa krewetkowa,False,False,False,False,10,5,140
-zupka Shin Ramyun,False,False,False,False,10,4,141
-sos serowy,True,False,True,False,10,5,142
-sos do salsy,True,True,False,False,10,4,143
-ser mozzarella,True,False,False,False,10,4,144
-kiełki,True,True,False,False,10,4,145
-krem balsamiczny,True,True,False,False,10,4,146
-zupka Neoguri,True,False,False,False,10,4,147
-szpinak,True,True,False,False,10,4,148
-pasta sojowa,True,True,False,False,10,4,149
-mąka ryżowa,True,True,False,False,100,1,150
-kakao,True,True,False,False,10,5,151
-mąka,True,True,False,False,100,1,152
-drożdże,True,False,False,False,10,4,153
-jogurt naturalny,True,False,False,False,10,4,154
-śledź,False,False,False,False,10,5,155
-marynowany podgrzybek,True,True,False,False,10,5,156
-marynowana cebula,True,True,False,False,10,4,157
-pasta harissa,True,True,False,False,10,4,158
-migdał,True,True,False,False,10,4,159
-sok z limonki,True,True,False,False,10,5,160
-nasiono granatu,True,True,False,False,10,4,161
-soczewica,True,True,False,False,10,5,162
-ocet winny,True,True,False,False,10,5,163
-łosoś,False,False,False,False,10,5,164
-ciecierzyca,True,True,False,False,10,4,165
-kmin rzymski,True,True,False,False,10,5,166
-ciabatta,True,False,False,True,10,4,167
-szarlotka,True,False,False,False,10,4,168
-pasata pomidorowa,True,True,False,False,10,4,169
-chleb,True,False,False,True,10,4,170
-cukinia,True,True,False,False,10,4,171
-bułka do burgerów,True,False,False,False,10,5,172
-olej słonecznikowy,True,True,False,False,10,5,173
-alga,True,True,False,False,10,5,174
-ocet ryżowy,True,True,False,False,10000,1,175
-wasabi,True,True,False,False,10,4,176
-makaron ryżowy,True,True,False,True,100,2,177
-pasta miso,True,True,False,False,10,4,178
-grzyb shiitake,True,True,False,False,10,4,179
-żelatyna,False,False,False,False,10,4,180
-rum,True,True,False,False,10,4,181
-gorzka czekolada,True,False,False,False,10,5,182
-płatki owsiane,True,True,False,False,10,4,183
-wiórki kokosowe,True,True,False,False,10000,1,184
-maliny,True,True,False,False,10,5,185
-mięso drobiowe,False,False,False,False,10,4,186
-bazylia,True,True,False,False,10000,1,187
-tapioka,True,True,False,False,10,4,188
-pasta z wanilii,True,True,False,False,10,4,189
-konfitura malinowa,True,True,False,False,10,5,190
+name,vegetarian,vegan,allergic,gluten,exp_date_days,price,id,Klasa,Kategoria
+alga,TRUE,TRUE,FALSE,FALSE,10,5,174,inne,
+awokado,TRUE,TRUE,FALSE,FALSE,10,5,31,owoc,
+bakłażan,TRUE,TRUE,FALSE,FALSE,10,4,57,warzywo,
+bazylia,TRUE,TRUE,FALSE,FALSE,10000,1,187,przyprawa,
+białe wino,TRUE,TRUE,FALSE,FALSE,10000,1,93,napój,alkohol
+biały sezam,TRUE,TRUE,TRUE,FALSE,10000,1,49,bakalie,
+bita śmietana,TRUE,FALSE,FALSE,FALSE,10,4,51,nabiał,
+boczek,FALSE,FALSE,FALSE,FALSE,10,5,66,mięso,
+brokuł,TRUE,TRUE,FALSE,FALSE,10,5,103,warzywo,
+bulion,FALSE,FALSE,FALSE,FALSE,10,5,74,inne,
+bulion mięsny,FALSE,FALSE,FALSE,FALSE,10,4,63,inne,
+bułka do burgerów,TRUE,FALSE,FALSE,FALSE,10,5,172,zbożowe,
+cebula,TRUE,TRUE,FALSE,FALSE,10,5,26,warzywo,cebula
+cebulka,TRUE,TRUE,FALSE,FALSE,12,4,2,warzywo,cebula
+chińska kapusta,TRUE,TRUE,FALSE,FALSE,10,4,122,warzywo,kapusta
+chleb,TRUE,FALSE,FALSE,TRUE,10,4,170,zbożowe,
+ciabatta,TRUE,FALSE,FALSE,TRUE,10,4,167,zbożowe,
+ciecierzyca,TRUE,TRUE,FALSE,FALSE,10,4,165,zboże,
+cukier,TRUE,TRUE,FALSE,FALSE,10000,1,7,przyprawa,
+cukier waniliowy,TRUE,TRUE,FALSE,FALSE,10000,1,39,przyprawa,
+cukinia,TRUE,TRUE,FALSE,FALSE,10,4,171,warzywo,
+cynamon,TRUE,TRUE,FALSE,FALSE,10000,1,36,przyprawa,
+cytryna,TRUE,TRUE,FALSE,FALSE,4,10,9,owoc,
+czekolada,TRUE,FALSE,TRUE,FALSE,30,2,11,słodycz,czekolada
+czerwona papryka,TRUE,TRUE,FALSE,FALSE,10,5,104,warzywo,
+czosnek,TRUE,TRUE,FALSE,FALSE,2,17,23,warzywo,
+dorsz,FALSE,FALSE,FALSE,FALSE,10,5,131,owoc morza,
+drożdże,TRUE,FALSE,FALSE,FALSE,10,4,153,inne,
+fasola,TRUE,TRUE,FALSE,FALSE,10,5,64,strączkowe,fasola
+fasola czerwona,TRUE,TRUE,FALSE,FALSE,10,4,80,strączkowe,fasola
+fasolka biała,TRUE,TRUE,FALSE,FALSE,10,6,139,strączkowe,fasola
+fasolka szparagowa,TRUE,TRUE,FALSE,FALSE,10,4,119,strączkowe,fasola
+gorzka czekolada,TRUE,FALSE,FALSE,FALSE,10,5,182,słodycz,czekolada
+groszek cukrowy,TRUE,TRUE,FALSE,FALSE,10,4,111,strączkowe,
+grzyb shiitake,TRUE,TRUE,FALSE,FALSE,10,4,179,grzyb,
+herbata malinowa,TRUE,TRUE,FALSE,FALSE,10,4,89,przyprawa,
+imbir,TRUE,TRUE,FALSE,FALSE,10000,1,40,przyprawa,
+jagoda goji,TRUE,TRUE,FALSE,FALSE,10,5,41,przyprawa,
+jajko,TRUE,FALSE,TRUE,FALSE,10,4,34,inne,
+jogurt naturalny,TRUE,FALSE,FALSE,FALSE,10,4,154,nabiał,
+kacze udko,FALSE,FALSE,FALSE,FALSE,10,4,92,mięso,
+kakao,TRUE,TRUE,FALSE,FALSE,10,5,151,przyprawa,
+kalmar,FALSE,FALSE,FALSE,FALSE,10,5,137,owoc morza,
+kasztan jadalny,TRUE,TRUE,FALSE,FALSE,10,4,102,owoc,
+kiełbaska chorizo,FALSE,FALSE,FALSE,FALSE,10,4,138,mięso,kiełbasa
+kiełki,TRUE,TRUE,FALSE,FALSE,10,4,145,warzywo,
+kmin rzymski,TRUE,TRUE,FALSE,FALSE,10,5,166,przyprawa,
+kolendra,TRUE,TRUE,FALSE,FALSE,10000,1,28,przyprawa,
+konfitura malinowa,TRUE,TRUE,FALSE,FALSE,10,5,190,słodycz,
+krem balsamiczny,TRUE,TRUE,FALSE,FALSE,10,4,146,przyprawa,
+krewetka,FALSE,FALSE,FALSE,FALSE,10,5,97,owoc morza,
+kukurydza,TRUE,TRUE,FALSE,FALSE,2,15,14,warzywo,
+kurczak,FALSE,FALSE,FALSE,FALSE,3,11,0,mięso,drób
+kurka,TRUE,TRUE,FALSE,FALSE,10,5,130,grzyb,
+kuskus,TRUE,TRUE,FALSE,FALSE,10,4,133,zbożowe,kasza
+laska wanilii,TRUE,TRUE,FALSE,FALSE,10000,1,47,przyprawa,
+leszcz morski,FALSE,FALSE,FALSE,FALSE,10,5,114,owoc morza,
+limonka,TRUE,TRUE,FALSE,FALSE,10,5,46,warzywo,
+liść bazylii,TRUE,TRUE,FALSE,FALSE,10000,1,59,przyprawa,
+liść laurowy,TRUE,TRUE,FALSE,FALSE,10000,1,71,przyprawa,
+lód,TRUE,TRUE,FALSE,FALSE,10,5,55,inne,
+łosoś,FALSE,FALSE,FALSE,FALSE,10,5,164,owoc morza,
+majeranek,TRUE,TRUE,FALSE,FALSE,10,4,73,przyprawa,
+majonez,TRUE,FALSE,TRUE,FALSE,10,4,18,przyprawa,
+mąka,TRUE,TRUE,FALSE,FALSE,100,1,152,zbożowe,mąka
+mąka orkiszowa,TRUE,TRUE,FALSE,FALSE,100,1,50,zbożowe,mąka
+mąka pszenna,TRUE,TRUE,FALSE,FALSE,100,2,76,zbożowe,mąka
+mąka ryżowa,TRUE,TRUE,FALSE,FALSE,100,1,150,zbożowe,mąka
+mąka z orzechów,TRUE,TRUE,TRUE,FALSE,100,1,35,zbożowe,mąka
+mąka ziemniaczana,TRUE,TRUE,FALSE,FALSE,100,1,27,zbożowe,mąka
+makaron,TRUE,FALSE,FALSE,TRUE,100,2,79,zbożowe,makaron
+makaron chili,TRUE,FALSE,FALSE,TRUE,100,2,125,zbożowe,makaron
+makaron jajeczny,TRUE,FALSE,TRUE,FALSE,100,1,99,zbożowe,makaron
+makaron pszenny,TRUE,FALSE,FALSE,TRUE,100,1,128,zbożowe,makaron
+makaron ryżowy,TRUE,TRUE,FALSE,TRUE,100,2,177,zbożowe,makaron
+makaron sojowy,TRUE,TRUE,FALSE,TRUE,100,2,96,zbożowe,makaron
+makaron udong,TRUE,FALSE,FALSE,TRUE,100,2,62,zbożowe,makaron
+maliny,TRUE,TRUE,FALSE,FALSE,10,5,185,owoc,
+mango,TRUE,TRUE,FALSE,FALSE,10,4,48,owoc,
+marchew,TRUE,TRUE,FALSE,FALSE,10,4,75,warzywo,marchew
+marchewka,TRUE,TRUE,FALSE,FALSE,10,5,67,warzywo,
+marynata,TRUE,TRUE,FALSE,FALSE,10,5,117,marynaty,
+marynowana cebula,TRUE,TRUE,FALSE,FALSE,10,4,157,marynaty,
+marynowana ostra papryczka,TRUE,TRUE,FALSE,FALSE,10,4,16,marynaty,
+marynowana papryka jalapeño,TRUE,TRUE,FALSE,FALSE,10,4,22,marynaty,
+marynowany podgrzybek,TRUE,TRUE,FALSE,FALSE,10,5,156,marynaty,
+masło,TRUE,FALSE,TRUE,FALSE,10,4,33,tłuszcz,
+mięso drobiowe,FALSE,FALSE,FALSE,FALSE,10,4,186,mięso,
+mięta,TRUE,TRUE,FALSE,FALSE,2,20,8,przyprawa,
+migdał,TRUE,TRUE,FALSE,FALSE,10,4,159,orzech,
+miód,TRUE,FALSE,FALSE,FALSE,10,5,90,inne,
+mirin,TRUE,TRUE,FALSE,FALSE,10,5,83,inne,
+mleczko kokosowe,TRUE,TRUE,FALSE,FALSE,10,4,45,owoc,
+mleko,TRUE,FALSE,TRUE,FALSE,15,4,6,nabiał,
+mozzarella,TRUE,FALSE,TRUE,FALSE,10,5,17,nabiał,ser
+mus jabłkowy,TRUE,TRUE,FALSE,FALSE,10,4,38,owoc,
+musztarda,TRUE,TRUE,FALSE,FALSE,10,5,19,inne,
+napój z mango,TRUE,TRUE,FALSE,FALSE,10,4,53,napój,
+nasiono granatu,TRUE,TRUE,FALSE,FALSE,10,4,161,owoc,
+natka pietruszki,TRUE,TRUE,FALSE,FALSE,10,5,135,przyprawa,
+ocet,TRUE,TRUE,FALSE,FALSE,10000,1,25,ocet,
+ocet ryżowy,TRUE,TRUE,FALSE,FALSE,10000,1,175,ocet,
+ocet winny,TRUE,TRUE,FALSE,FALSE,10,5,163,ocet,
+ogórek,TRUE,TRUE,FALSE,FALSE,10,4,100,warzywo,
+olej,TRUE,TRUE,FALSE,FALSE,100,1,1,tłuszcz,olej
+olej sezamowy,TRUE,TRUE,TRUE,FALSE,10,4,118,tłuszcz,olej
+olej słonecznikowy,TRUE,TRUE,FALSE,FALSE,10,5,173,tłuszcz,olej
+oliwa,TRUE,TRUE,FALSE,FALSE,30,2,32,tłuszcz,
+oregano,TRUE,TRUE,FALSE,FALSE,10,5,124,przyprawa,
+orzech nerkowca,TRUE,TRUE,FALSE,FALSE,10,5,112,orzech,
+orzeszek pinii,TRUE,TRUE,TRUE,FALSE,10,4,78,orzech,
+papryczka chili,TRUE,TRUE,FALSE,FALSE,10,5,60,warzywo,papryka
+papryka,TRUE,TRUE,FALSE,FALSE,10,5,21,warzywo,papryka
+papryka czerwona,TRUE,TRUE,FALSE,FALSE,10,5,82,warzywo,papryka
+parmezan,TRUE,FALSE,TRUE,FALSE,10,4,77,nabiał,ser
+pasata pomidorowa,TRUE,TRUE,FALSE,FALSE,10,4,169,warzywo,
+pasta curry,TRUE,TRUE,FALSE,FALSE,10,4,56,pasta,
+pasta harissa,TRUE,TRUE,FALSE,FALSE,10,4,158,pasta,
+pasta miso,TRUE,TRUE,FALSE,FALSE,10,4,178,pasta,
+pasta sojowa,TRUE,TRUE,FALSE,FALSE,10,4,149,pasta,
+pasta z wanilii,TRUE,TRUE,FALSE,FALSE,10,4,189,pasta,
+pęd bambusa,TRUE,TRUE,FALSE,FALSE,10,5,85,warzywo,
+perełka tapioki,TRUE,TRUE,FALSE,FALSE,10,5,87,warzywo,
+pieczarka,TRUE,TRUE,FALSE,FALSE,10,5,109,grzyb,
+pieprz,TRUE,TRUE,FALSE,FALSE,10000,1,24,przyprawa,
+pietruszka,TRUE,TRUE,FALSE,FALSE,10000,1,68,przyprawa,
+płatki owsiane,TRUE,TRUE,FALSE,FALSE,10,4,183,zbożowe,
+polędwica wołowa,FALSE,FALSE,FALSE,FALSE,10,5,58,mięso,
+pomidor,TRUE,TRUE,FALSE,FALSE,2,19,20,warzywo,pomidor
+pomidor malinowy,TRUE,TRUE,FALSE,FALSE,10,5,129,warzywo,pomidor
+pomidorek koktajlowy,TRUE,TRUE,FALSE,FALSE,10,4,123,warzywo,pomidor
+por,TRUE,TRUE,FALSE,FALSE,10,4,61,warzywo,
+przyprawa do drobiu,TRUE,TRUE,FALSE,FALSE,10000,1,3,przyprawa,mieszanka
+puree z mango,TRUE,TRUE,FALSE,FALSE,10,4,52,owoc,
+rozmaryn,TRUE,TRUE,FALSE,FALSE,10,5,115,przyprawa,
+rukola,TRUE,TRUE,FALSE,FALSE,10,5,30,warzywo,
+rum,TRUE,TRUE,FALSE,FALSE,10,4,181,alkohol,
+ryż,TRUE,TRUE,FALSE,FALSE,90,1,5,zboże ,
+sałata,TRUE,TRUE,FALSE,FALSE,10,5,81,warzywo,sałata
+sałata lodowa,TRUE,TRUE,FALSE,FALSE,10,5,94,warzywo,sałata
+seler,TRUE,TRUE,FALSE,FALSE,10,3,69,warzywo,
+ser feta,TRUE,FALSE,TRUE,FALSE,10,5,136,nabiał,ser
+ser kozi,TRUE,FALSE,TRUE,FALSE,10,5,134,nabiał,ser
+ser mozzarella,TRUE,FALSE,FALSE,FALSE,10,4,144,nabiał,ser
+sezam,TRUE,TRUE,FALSE,FALSE,10,5,86,inne,
+śledź,FALSE,FALSE,FALSE,FALSE,10,5,155,owoc,
+śmietanka kremowa,TRUE,FALSE,FALSE,FALSE,10,5,126,nabiał,śmietanka
+śmietanka kremówki,TRUE,FALSE,FALSE,FALSE,10,5,132,nabiał,śmietanka
+soczewica,TRUE,TRUE,FALSE,FALSE,10,5,162,strączkowe,
+soda oczyszczona,TRUE,TRUE,FALSE,FALSE,10000,1,37,owoc,
+sok z limonki,TRUE,TRUE,FALSE,FALSE,10,5,160,przyprawa,
+sól,TRUE,TRUE,FALSE,FALSE,10000,1,4,przyprawa,
+solona pistacja,TRUE,TRUE,FALSE,FALSE,10,5,98,orzech,
+sos chili,TRUE,TRUE,FALSE,FALSE,10,4,116,sos,
+sos do salsy,TRUE,TRUE,FALSE,FALSE,10,4,143,sos,
+sos Hoisin,TRUE,TRUE,FALSE,FALSE,10,5,95,sos,
+sos hoisin,TRUE,TRUE,FALSE,FALSE,10,4,106,sos,
+sos ostrygowy,FALSE,FALSE,FALSE,FALSE,10,5,101,sos,
+sos serowy,TRUE,FALSE,TRUE,FALSE,10,5,142,sos,
+sos sojowy,TRUE,TRUE,FALSE,FALSE,10,5,42,sos,
+sos stir-fry,FALSE,FALSE,FALSE,FALSE,10,4,110,sos,
+sos teriyaki,TRUE,FALSE,FALSE,FALSE,10,4,105,sos,
+sos Worcester,FALSE,FALSE,FALSE,FALSE,10,4,127,sos,
+syrop cytrynowy,TRUE,TRUE,FALSE,FALSE,10,5,88,owoc,
+szarlotka,TRUE,FALSE,FALSE,FALSE,10,4,168,słodycz,
+szczypiorek,TRUE,TRUE,FALSE,FALSE,2,20,15,warzywo,cebula
+szparag,TRUE,TRUE,FALSE,FALSE,10,5,113,warzywo,
+szpinak,TRUE,TRUE,FALSE,FALSE,10,4,148,warzywo,
+tapioka,TRUE,TRUE,FALSE,FALSE,10,4,188,warzywo,
+tofu,TRUE,TRUE,FALSE,FALSE,10,5,29,strączkowe,
+tortilla pszenna,TRUE,FALSE,FALSE,TRUE,10,4,12,zbożowe,tortilla
+tortilla taco,TRUE,FALSE,FALSE,FALSE,10,4,91,zbożowe,tortilla
+truskawka,TRUE,TRUE,TRUE,FALSE,2,20,10,owoc,
+tuńczyk w oliwie,FALSE,FALSE,FALSE,FALSE,2,17,13,owoc morza,
+wasabi,TRUE,TRUE,FALSE,FALSE,10,4,176,przyprawa,
+wieprzowina,FALSE,FALSE,FALSE,FALSE,10,5,120,mięso,
+wino ryżowe,TRUE,TRUE,FALSE,FALSE,10,5,121,alkohol,wino
+wiórki kokosowe,TRUE,TRUE,FALSE,FALSE,10000,1,184,warzywo,
+woda,TRUE,TRUE,FALSE,FALSE,10000,1,44,inne,
+wódka,TRUE,TRUE,FALSE,FALSE,10000,1,43,alkohol,
+wołowina,FALSE,FALSE,FALSE,FALSE,10,5,84,mięso,
+żeberko,FALSE,FALSE,FALSE,FALSE,10,5,107,mięso,żeberko
+żeberko wieprzowe,FALSE,FALSE,FALSE,FALSE,10,4,65,mięso,żeberko
+żelatyna,FALSE,FALSE,FALSE,FALSE,10,4,180,mięso,
+ziele angielskie,TRUE,TRUE,FALSE,FALSE,10000,1,70,przyprawa,
+zielona herbata,TRUE,TRUE,FALSE,FALSE,10000,1,54,przyprawa,
+zielona papryka,TRUE,TRUE,FALSE,FALSE,10,5,108,warzywo,
+ziemniak,TRUE,TRUE,FALSE,FALSE,10,4,72,warzywo,
+zupa krewetkowa,FALSE,FALSE,FALSE,FALSE,10,5,140,zupa,
+zupka Neoguri,TRUE,FALSE,FALSE,FALSE,10,4,147,zupa,
+zupka Shin Ramyun,FALSE,FALSE,FALSE,FALSE,10,4,141,zupa,
