@@ -14,6 +14,7 @@ k['from_date'] = k['to_date'] + pd.to_timedelta(
     -np.random.randint(low=1, high=np.minimum(k['exp_date_days'], 365), size=k.shape[0]), unit='D')
 
 out = k.loc[:, ['product_id', 'quantity', 'price', 'exp_date_days', 'from_date', 'to_date']].reset_index(drop=True)
+# sanity check
 out = out.loc[-np.isnan(out['product_id']), :]
 
 # random expired products
